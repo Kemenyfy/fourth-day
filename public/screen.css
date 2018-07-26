@@ -3,7 +3,43 @@ html {
 }
 
 body {
+  display: flex;
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-color: black;
+  color: yellow;
 }
+
+.box {
+  width: 40em;
+  height: 25em;
+  background-color: red;
+  margin: 12em 0em 15em 22em
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40em;
+  height: 20em;
+  background-color: red;
+  margin: 2em 0em 0em 0em;
+}
+
+.big-text {
+  font-size: 2em;
+}
+
+.bluetext {
+  color: blue;
+  text-decoration-line: underline;
+}
+
+.logo {
+  width: 15em;
+  height: 10em;
+}
+
