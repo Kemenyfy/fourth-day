@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "deploy": "surge ./public --domain fourth-day.kemenyfy.surge.sh",
+    "deploy": "surge ./public --domain mcdonalds1995.kemenyfy.surge.sh",
     "start": "browser-sync start --server \"public\" --files \"public\""
   },
   "dependencies": {
